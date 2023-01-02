@@ -1,0 +1,39 @@
+.all-movies{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 120px auto;
+}
+
+.one-movie{
+    cursor: pointer;
+    width: 300px;
+    box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.239);
+    color: azure;
+    margin: 1rem 0.45rem;
+    padding:10px;
+    border-radius: 15px 15px 0px 0px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.one-movie img:hover{
+    transition: all 0.3s linear;
+    transform: scale(1.06);
+}
+.one-movie img{
+    height: 170px;
+}
+.one-movie h2{
+    font-size: 28px;
+    margin-bottom: 0;
+
+}
+.one-movie p{
+    font-size: 16px;
+    margin-bottom: 5px;
+}

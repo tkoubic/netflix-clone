@@ -1,11 +1,13 @@
+import Movies from "./components/Movies"
+import "./App.css"
 
-import Movies from "./Movies"
 
 
 const App = ()=>{
   return(
     <>
-    <h1>Ahoj</h1>
+    <h1>Netflix Clone by Tomáš Koubek</h1>
+    
     <Movies />
     </>
   )
