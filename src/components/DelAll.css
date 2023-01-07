@@ -1,0 +1,15 @@
+.btn-del-all {
+    width: 120px;
+    background-color: #A62F03 ;
+    color: white;
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    cursor: pointer;
+}
+.btn-del-all:hover,
+.btn-del-all:focus{
+    transform: scale(1.02);
+}

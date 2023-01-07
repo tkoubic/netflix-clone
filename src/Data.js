@@ -14,7 +14,7 @@ const allMovies = [
     {
         id: 1,
         image: image1,
-        title: "Enola Holmesová 2",
+        title: "Enola Holmesová",
         age: "+13",
         tags: "Vtipný * Napínavý * Rodina",
         description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem accusantium amet nemo minus quo architecto quas",
@@ -22,7 +22,7 @@ const allMovies = [
     {
         id: 2,
         image: image2,
-        title: "Enola Holmesová",
+        title: "Enola Holmesová 2",
         age: "+13",
         tags: "Vtipný * Napínavý * Rodina",
         description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem accusantium amet nemo minus quo architecto quas",

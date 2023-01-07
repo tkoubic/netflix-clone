@@ -3,7 +3,7 @@ import "./DelAll.css"
 
 const DelAll = (props) => {
     return <div>
-        <button onClick={props.deleteMovies}>Vymazat všechny filmy</button>
+        <button className="btn-del-all" onClick={props.deleteMovies}>Vymazat všechny filmy</button>
     </div>
 } 
 

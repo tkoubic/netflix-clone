@@ -3,13 +3,16 @@ import allMovies from "../Data"
 import DelBtn from "./DelBtn"
 import { useState } from "react"
 import DelAll from "./DelAll"
-
+import ResetMovies from "./ResetMovies"
 
 
 
 const Movies = () => {
     const [movieList, setMovieList] = useState(allMovies)
 
+    const resetMovies = () =>{
+        setMovieList(allMovies)
+    }
     const deleteAllMovies = () => {
         setMovieList([])
     }
@@ -25,8 +28,9 @@ const Movies = () => {
 
 
     return <section>
-        <div>
-            <DelAll deleteMovies={deleteAllMovies} />
+        <div className="btn-container">
+            <DelAll deleteMovies={deleteAllMovies} />        
+            <ResetMovies resetMovies={resetMovies}/>
         </div>
 
         <div className="all-movies">
